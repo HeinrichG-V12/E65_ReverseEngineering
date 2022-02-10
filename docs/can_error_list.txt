@@ -1,0 +1,690 @@
+0x5d8c	5D8C - return pump: error while checking voltage: RFP ON: but expected OFF. - proof good test required! - line defect?
+0x5d8d	5D8D - return pump: RFP is not running. Error at voltage check: RFP ON: but expected OFF - proof good test required! - fuse oder relais of pump defective?
+0x5d8e	5D8E - return pump: run after time to short - proof good test required!
+0x5d8f	5D8F - Info: return pump: release of pump drive cycle. No fault - proof good test required.
+0x5d90	5D90 - valve relais: FW open. Error caused by too many recognized individual valve errors- defective fuse?
+0x5d91	5D91 - valve relais: FW open. Relay does not close during startup test - defective fuse?
+0x5d92	5D92 - valve relais: VRA information via SPI has no effect during FSA Test.
+0x5d93	5D93 - valve relais: Medium or high-resistance short circuit of voltage supply_FR or valve after ground registered through start-up test.
+0x5d94	5D94 - valve relais: FW is in closed position. Does not switch off during startup test.
+0x5d95	5D95 - valve relais: VR open, power supply VR to low while startup-test (checked by Uz clamp_15). - defective fuse?
+0x5d96	5D96 - valve relais: short circuit to Uz power supply_clamp_15 monitored by valve relais test.
+0x5d97	5D97 - valve relais: Medium or high-resistance short circuit of voltage supply _FR or the valve on ground registered during the cyclical valve relay test.
+0x5d98	5D98 - inlet valve (IV) front left: error with cyclical valve and relay test.
+0x5d99	5D99 - inlet valve (IV) front left: general error.
+0x5d9b	5D9B - inlet valve (IV) front left: valve voltage defective (drift error) cable connection or end level defective?
+0x5dda	5DDA - inlet valve (IV) front left: ground short circuit recognized.
+0x5ddb	5DDB - inlet valve (IV) front left: Non-classifiable error.
+0x5d9d	5D9D - outlet valve (OV) front left: error with cyclical valve and relay test.
+0x5d9e	5D9E - outlet valve (OV) front left: general error.
+0x5de5	5DE5 - outlet valve (OV) front left: ground short circuit recognized.
+0x5de6	5DE6 - outlet valve (OV) front left: Non-classifiable error.
+0x5da1	5DA1 - inlet valve (IV) front right: error with cyclical valve and relay test.
+0x5da2	5DA2 - inlet valve (IV) front right: general error.
+0x5e94	5E94 - inlet valve (IV) front right: valve voltage defective (drift error) cable connection or end level defective?
+0x5e29	5E29 - inlet valve (IV) front right: ground short circuit recognized.
+0x5e2a	5E2A - inlet valve (IV) front right: Non-classifiable error.
+0x5da6	5DA6 - outlet valve (OV) front right: error with cyclical valve and relay test.
+0x5da7	5DA7 - outlet valve (OV) front right: general error.
+0x5e2b	5E2B - outlet valve (OV) front right: ground short circuit recognized.
+0x5e78	5E78 - outlet valve (OV) front right: Non-classifiable error.
+0x5daa	5DAA - inlet valve (IV) rear left: error with cyclical valve and relay test.
+0x5dab	5DAB - inlet valve (IV) rear left: general error.
+0x5dad	5DAD - inlet valve (IV) rear left: valve voltage defective (drift error) cable connection or end level defective?
+0x5e47	5E47 - inlet valve (IV) rear left: ground short circuit recognized.
+0x5e48	5E48 - inlet valve (IV) rear left: Non-classifiable error.
+0x5daf	5DAF - outlet valve (OV) rear left: error with cyclical valve and relay test.
+0x5db0	5DB0 - outlet valve (OV) rear left: general error.
+0x5e6e	5E6E - outlet valve (OV) rear left: ground short circuit recognized.
+0x5e6f	5E6F - outlet valve (OV) rear left: Non-classifiable error.
+0x5db3	5DB3 - inlet valve (IV) rear right: error with cyclical valve and relay test.
+0x5db4	5DB4 - inlet valve (IV) rear right: general error.
+0x5e71	5E71 - inlet valve (IV) rear right: ground short circuit recognized.
+0x5e73	5E73 - inlet valve (IV) rear right: Non-classifiable error.
+0x5db8	5DB8 - outlet valve (OV) rear right: error with cyclical valve and relay test.
+0x5db9	5DB9 - outlet valve (OV) rear right: general error.
+0x5e7c	5E7F - outlet valve (OV) rear right: ground short circuit recognized.
+0x5e7d	5E7D - outlet valve (OV) rear right: Non-classifiable error.
+0x5dbc	5DBC - valve (USV1): error with cyclical valve and relay test.
+0x5dbd	5DBD - valve (USV1): general error.
+0x5dbf	5DBF - valve (USV1): valve voltage defective (drift error) cable connection or end level defective?
+0x5e7f	5E7F - valve (USV1): ground short circuit recognized.
+0x5e80	5E80 - valve (USV1): Non-classifiable error.
+0x5dc1	5DC1 - valve (USV2): error with cyclical valve and relay test.
+0x5dc2	5DC2 - valve (USV2): general error.
+0x5f4f	5F4F - valve (USV2): valve voltage defective (drift error) cable connection or end level defective?
+0x5e81	5E81 - valve (USV2): ground short circuit recognized.
+0x5e82	5E82 - valve (USV2): Non-classifiable error.
+0x5dc6	5DC6 - valve (HSV1): error with cyclical valve and relay test.
+0x5dc7	5DC7 - valve (HSV1): general error.
+0x5dc8	5DC8 - valve (HSV1): ground short circuit recognized.
+0x5dc9	5DC9 - valve (HSV1): Non-classifiable error.
+0x5dca	5DCA - valve (HSV2): error with cyclical valve and relay test.
+0x5dcb	5DCB - valve (HSV2): general error.
+0x5dcc	5DCC - valve (HSV2): ground short circuit recognized.
+0x5dcd	5DCD - valve (HSV2): Non-classifiable error.
+0x5dce	5DCE - UZ-Error: slight undervoltage (voltage too low).
+0x5dcf	5DCF - UZ-Error: severe undervoltage (voltage much too low).
+0x5dd0	5DD0 - UZ-Error: overvoltage.
+0x5dd1	5DD1 - UZ-Error: short circuit of a wheel speed sensor - voltage cable on UBatt. (current flow through aspxx-Pin of the speed sensor_input amplifier).
+0x5dd2	5DD2 - UZ-Error: voltage peak  on Uz.
+0x5dd3	5DD3 - DSC-ECU: ECU-internal: Measured supply voltage at tachometer_voltage_supply_clamp_15 is too low (voltage divider fault).
+0x5dd4	5DD4 - DSC-ECU: ECU-internal: wheel speed sensor- driver chip: Error in supply voltage/ ground. Reset-response test error.
+0x5dd5	5DD5 - DSC-ECU: ECU-internal: Enable-line cannot be activated (Startup-Test Enable high).
+0x5dd6	5DD6 - DSC-ECU: ECU-internal: Enable-line cannot be deactivated (Startup-Test Enable low).
+0x5dd8	5DD8 - DSC-ECU: ECU-internal: system startup synchronization timeout has occurred.
+0x5dd9	5DD9 - DSC-ECU: ECU-internal: SP-Interface: hardware error detected.
+0x5ddc	5DDC - DSC-ECU: ECU-internal: Het-SP-Interface Sends error message not correctly transfered.
+0x5ddd	5DDD - DSC-ECU: ECU-internal: No access to transmission table of the Het-SP-Interface .
+0x5dde	5DDE - DSC-ECU: ECU-internal: Watchdog-control signals: data error occurred.
+0x5ddf	5DDF - DSC-ECU: ECU-internal: Watchdog-Monitoring reports: incorrect status.
+0x5de0	5DE0 - DSC-ECU: ECU-internal: Plausibility of VASP-U_bit reference to tachometer supply_voltage _clamp_ 15.
+0x5de1	5DE1 - DSC-ECU: ECU-internal: Clockstatus of the SP interface shows missing clock.
+0x5de2	5DE2 - DSC-ECU: ECU-internal: DePwm status: software/hardware configurations do not match (DF11i/s).
+0x5de3	5DE3 - DSC-ECU: ECU-internal: status_wheel speed output of the SP interface does not match configuration.
+0x5de4	5DE4 - DSC-ECU: ECU-internal: Boot Block ROM checksum test error.
+0x5dee	5DEE - DSC-ECU: ECU-internal: error in error detection system in status/transfer: SP interface error in the algorithm server .
+0x5def	5DEF - DSC-ECU: ECU-internal: ROM checksum test error.
+0x5df0	5DF0 - DSC-ECU: ECU-internal: RAM address test error.
+0x5df1	5DF1 - DSC-ECU: ECU-internal: RAM check pattern test error.
+0x5df2	5DF2 - DSC-ECU: ECU-internal: HET RAM address test error.
+0x5df3	5DF3 - DSC-ECU: ECU-internal: HET RAM check pattern test error.
+0x5df4	5DF4 - DSC-ECU: ECU-internal: ADC calibration error.
+0x5df5	5DF5 - DSC-ECU: ECU-internal: Can RAM check pattern test error.
+0x5df6	5DF6 - DSC-ECU: ECU-internal: operating system computing cycle time to high - wrong computing cycle (Task)-Timing.
+0x5df7	5DF7 - DSC-ECU: ECU-internal: operating system: low background-computing cycle(task)-activity - system overloaded!
+0x5df8	5DF8 - DSC-ECU: ECU-internal: exception error operating system.
+0x5df9	5DF9 - DSC-ECU: ECU-internal: Operating system: computing cycle (task) missing or not activated.
+0x5dfa	5DFA - DSC-ECU: ECU-internal: undefined fast interrupt request (FIQ) has occurred.
+0x5dfb	5DFB - DSC-ECU: ECU-internal: data interruption -> mikrocontroller-mode: Daboard.
+0x5dfc	5DFC - DSC-ECU: ECU-internal: program brake -> microcontroller-mode: Paboard.
+0x5dfd	5DFD - DSC-ECU: ECU-internal: illegal Opcode found -> microcontroller-mode: undefined.
+0x5dfe	5DFE - DSC-ECU: ECU-internal: ROM checksum test error.
+0x5dff	5DFF - DSC-ECU: ECU-internal: RAM address test error.
+0x5e00	5E00 - DSC-ECU: ECU-internal: RAM check pattern test error.
+0x5e01	5E01 - DSC-ECU: ECU-internal: HET RAM address test error.
+0x5e02	5E02 - DSC-ECU: ECU-internal: HET RAM check pattern test error.
+0x5e03	5E03 - DSC-ECU: ECU-internal: general error of the valve driver status or valve driver registered through cyclical valve relay test.
+0x5e04	5E04 - DSC-ECU: ECU-internal: error of permanent enable line monitoring (enable is low after startup test).
+0x5e05	5E05 - DSC-ECU: ECU-internal: SP interface transfer impossible to plan.
+0x5e06	5E06 - DSC-ECU: ECU-internal: Scheduled data transfer not available.
+0x5e07	5E07 - DSC-ECU: ECU-internal: data transfer error (answer of the SP-interface handler).
+0x5e08	5E08 - DSC-ECU: ECU-internal: Scheduled built-in-self-test (BIST) incorrect (BIST continuity).
+0x5e09	5E09 - DSC-ECU: ECU-internal: Build-in-self-test (BIST)-different signatures, CPU error in algorithm or system server.
+0x5e0a	5E0A - DSC-ECU: ECU-internal: general control device error.
+0x5e0b	5E0B - DSC-ECU: ECU-internal: FPS error and status transfer: First-in-first-out-overflow in the system server has occurred .
+0x5e0c	5E0C - DSC-ECU: ECU-internal: Build-in-self-test(BIST)-dignatures different. CPU error in algorithm or System-Server.
+0x5e0d	5E0D - DSC-ECU: ECU-internal: Timeout of the  built-in-self-test(BIST). Answer through Algorithm-Server.
+0x5e0e	5E0E - DSC-ECU: ECU-internal: operating system computing cycle time to high - wrong computing cycle(Task)-Timing.
+0x5e0f	5E0F - DSC-ECU: ECU-internal: operating system computing cycle (Task) is missing or not activated.
+0x5e10	5E10 - DSC-ECU: ECU-internal: operating system low background task-activity - system overloaded!
+0x5e11	5E11 - DSC-ECU: ECU-internal: undefined fast interrupt request (FIQ) has occurred.
+0x5e12	5E12 - DSC-ECU: ECU-internal: Illegaler Opcode gefunden -> Mikrocontroller-mode: undefiniert.
+0x5e13	5E13 - DSC-ECU: ECU-internal: program brake -> microcontroller-mode: Paboard.
+0x5e14	5E14 - DSC-ECU: ECU-internal: data break -> microcontroller-mode: Daboard.
+0x5e15	5E15 - DSC-ECU: ECU-internal: FPS status transfer: SP interface timeout in the system server .
+0x5e16	5E16 - DSC-ECU: ECU-internal: FPS error Transfer: SP interface timeout in the system server .
+0x5e17	5E17 - DSC-ECU: ECU-internal: FPS status transfer: SP interface error in the system server .
+0x5e18	5E18 - DSC-ECU: ECU-internal: Data volume for periphery SP interface exceeds buffer length.
+0x5e19	5E19 - DSC-ECU: ECU-internal: Serial-Peripheral-Interface (SPI): ID request not accepted.
+0x5e1a	5E1A - DSC-ECU: ECU-internal: Serial-Peripheral-Interface (SPI): transmission failure multi IC.
+0x5e1b	5E1B - DSC-ECU: ECU-internal: Serial-Peripheral-Interface (SPI): Transmission error in EEPROM.
+0x5e1c	5E1C - DSC-ECU: ECU-internal: energy gap, voltage outside of valid range.
+0x5e1d	5E1D - DSC-ECU: ECU-internal: ADC conversion of start error.
+0x5e1e	5E1E - DSC-ECU: ECU-internal: Flash reprogramming failed (cells are not writable).
+0x5e1f	5E1F - Info: DSC-ECU: Flash Re-programming cycle successfully executed (Info).
+0x5e20	5E20 - DSC-ECU: general control device error.
+0x5e21	5E21 - DSC-ECU: ECU-internal: exception error operating system.
+0x5f03	5F03 - DSC-ECU: ECU-internal: error reading EEPROM values: EEPROM cell defect.
+0x5f04	5F04 - DSC-ECU: ECU-internal: reading EEPROM values takes too long.
+0x5f05	5F05 - DSC-ECU: ECU-internal: Testpin cable disruption detected through  valve drift check for U467.
+0x5f06	5F06 - DSC-ECU: ECU-internal: error accessing the valve control outlet.
+0x5f16	5F16 - DSC-ECU: ECU-internal: wheel speed of main processor and coprocessor do not match.
+0x5f17	5F17 - DSC-ECU: ECU-internal: High-end-timer (HET) - error has occurred .
+0x5e22	5E22 - wheel speed sensor front left: line defect or short circuit .
+0x5e23	5E23 - wheel speed sensor front left: long-term (several secs.) error suspicion led to error mode.
+0x5e24	5E24 - wheel speed sensor front left: signal edge missing (RDF-Typ 11i).
+0x5e25	5E25 - wheel speed sensor front left: wrong signal width (>2ms) - correct RDF-type installed?
+0x5e26	5E26 - wheel speed sensor front left: air gap too large .
+0x5e27	5E27 - wheel speed sensor front left: loss of dynamic signal - proof good test required!
+0x5e28	5E28 - wheel speed sensor front left: noise monitor (Noise Monitor) - proof good test required!
+0x5e2d	5E2D - wheel speed sensor front left: missing impulse ring wheel FL - proof good test required!
+0x5e2e	5E2E - wheel speed sensor front left: wheel slip check wheel FL - proof good test required!
+0x5e2f	5E2F - wheel speed sensor front left: drive off fault wheel FL (RDF-signal value invalid) - proof good test required!
+0x5efe	5EFE - wheel speed sensor front left: wheel FL max. time range of inplausible sensor values (InplRad) exceeded.
+0x5e30	5E30 - wheel speed sensor rear left: line defect or short circuit .
+0x5e31	5E31 - wheel speed sensor rear left: long-term (several secs.) error suspicion led to error mode.
+0x5e32	5E32 - wheel speed sensor rear left: signal edge missing (RDF-Typ 11i).
+0x5e33	5E33 - wheel speed sensor rear left: wrong signal width (>2ms) - correct RDF-type installed?
+0x5e34	5E34 - wheel speed sensor rear left: air gap too large .
+0x5e35	5E35 - wheel speed sensor rear left: dynamic signal loss - proof good test required!
+0x5e36	5E36 - wheel speed sensor rear left: error signal interspersion monitoring (Noise Monitor) - proof good test required!
+0x5e3b	5E3B - wheel speed sensor rear left: missing impulse ring wheel RL - proof good test required!
+0x5e3c	5E3C - wheel speed sensor rear left: wheel slip check wheel RL - proof good test required!
+0x5e3d	5E3D - wheel speed sensor rear left: drive off fault wheel RL (RDF-signal value invalid) - proof good test required!
+0x5eff	5EFF - wheel speed sensor rear left: wheel RL max. time range of inplausible sensor values (InplRad) exceeded.
+0x5e3e	5E3E - wheel speed sensor rear right: line defect or short circuit .
+0x5e3f	5E3F - wheel speed sensor rear right: long-term (several secs.) error suspicion led to error mode.
+0x5e40	5E40 - wheel speed sensor rear right: signal edge missing (RDF-Typ 11i).
+0x5e41	5E41 - wheel speed sensor rear right: wrong signal width (>2ms) - correct RDF-type installed?
+0x5e42	5E42 - wheel speed sensor rear right: air gap too large .
+0x5e43	5E43 - wheel speed sensor rear right: loss of dynamic signal - proof good test required!
+0x5e44	5E44 - wheel speed sensor rear right: noise monitor (Noise Monitor) - proof good test required!
+0x5e49	5E49 - wheel speed sensor rear right: missing impulse ring wheel RR - proof good test required!
+0x5e4a	5E4A - wheel speed sensor rear right: wheel slip check RR - proof good test required!
+0x5e4b	5E4B - wheel speed sensor rear right: drive off fault wheel RR (RDF-signal value invalid) - proof good test required!
+0x5f00	5F00 - wheel speed sensor rear right: wheel RR max. time range of inplausible sensor values (InplRad) exceeded.
+0x5e4c	5E4C - wheel speed sensor front right: line defect or short circuit .
+0x5e4d	5E4D - wheel speed sensor front right: long-term (several secs.) error suspicion led to error mode.
+0x5e4e	5E4E - wheel speed sensor front right: signal edge missing (RDF-Typ 11i).
+0x5e4f	5E4F - wheel speed sensor front right: wrong signal width (>2ms) - correct RDF-type installed?
+0x5e50	5E50 - wheel speed sensor front right: air gap too large .
+0x5e51	5E51 - wheel speed sensor front right: loss of dynamic signal - proof good test required.
+0x5e52	5E52 - wheel speed sensor front right: noise monitor (Noise Monitor) - proof good test required.
+0x5e57	5E57 - wheel speed sensor front right: missing impulse ring wheel FR - proof good test required.
+0x5e58	5E58 - wheel speed sensor front right: wheel slip check wheel FR - proof good test required.
+0x5e59	5E59 - wheel speed sensor front right: drive off fault wheel FR (RDF-signal value invalid) - proof good test required.
+0x5f01	5F01 - wheel speed sensor front right:  wheel FR max. time range of inplausible sensor values (InplRad) exceeded.
+0x5e5a	5E5A - wheel speed sensor general: Long-term (several secs.) Error suspicion of 2 RDF led to error mode.
+0x5e5b	5E5B - wheel speed sensor general: Long-term (several secs.) Error suspicion of 3-4 RDF led to error mode.
+0x5e5c	5E5C - wheel speed sensor general: plausibility rotational direction.
+0x5e5d	5E5D - wheel speed sensor general: ABS control not plausible.
+0x5e5e	5E5E - wheel speed sensor general: general error while monitoring slip control (Lambda).
+0x5e5f	5E5F - wheel speed sensor general: short-term (few secs.) Error suspicion of 2-3 RDF. Temporary, reparable error.
+0x5e66	5E66 - wheel speed sensor general: crossed wheel speed sensor lines at front axle.
+0x5e67	5E67 - wheel speed sensor general: crossed wheel speed sensor lines at rear axle.
+0x5e68	5E68 - wheel speed sensor general: crossed wheel speed sensor lines at front axle - proof good test required!
+0x5e69	5E69 - wheel speed sensor general: crossed wheel speed sensor lines at rear axle - proof good test required!
+0x5f02	5F02 - wheel speed sensor general: max. numbers of inplausible sensor values (InplRad) exceeded.
+0x5e60	5E60 - brake light switch (BLS): Plausibility of BLS signal vs reported BS-signal of DME cable short circuit?
+0x5e62	5E62 - brake light switch (BLS): monitoring of the brake light switch (BLS) shows permanent high (but ECU reads a depressed brake pedal) - line interruption or short circuit?
+0x5e63	5E63 - brake light switch (BLS): monitoring of the brake light switch (BLS) shows permanent high (but ECU reads a depressed brake pedal) - proof good test required! - line interruption or short circuit?
+0x5eee	5EEE - brake light switch (BLS): plausibility 1: plausibility check: pressure sensor versus brake light switch (BLS) (low brake pressure range).
+0x5eef	5EEF - brake light switch (BLS): plausibility 2: plausibility check: pressure sensor versus brake light switch (BLS) (middle brake pressure range).
+0x5ef0	5EF0 - brake light switch (BLS): plausibility 3: plausibility check: pressure sensor versus brake light switch (BLS) (high brake pressure).
+0x5f37	5F37 - brake light switch (BLS): DME reports invalid status of the signal BRAKE SWITCH.
+0xD347	D347 - PT-CAN: BusOff or initialising-Error. CAN circuit interrupted?
+0xD34B	D34B - F-CAN: BusOff or initialising-Error. - CAN circuit interrupted?
+0xD34c	D34C - PT-CAN: general CAN error. CAN1 passive CAN circuit interrupted?
+0xD34d	D34D - F-CAN: general CAN error. CAN2 passive CAN circuit interrupted?
+0xD354	D354 - PT-CAN: message TORQUE_1 (ID 0xA8) not received or wrong message length (DLC). [transmitter: DME]
+0xD355	D355 - PT-CAN: message TORQUE_2 (ID 0x0A9) not received or wrong message length (DLC). [transmitter: DME]
+0xD356	D356 - PT-CAN: message TORQUE_3 (ID 0xAA) not received or wrong message length (DLC). [transmitter: DME]
+0xD357	D357 - PT-CAN: message VERZOEGERUNG_ANF-ACC (ID 0x0AD) not received (reveived by DSC ECU). [transmitter: ACC]
+0x5e6a	5E6A - PT-CAN: message DREHMOMENT_ANF_DSC (ID 0x0B6) could not be sent (sent by DSC ECU).
+0xD358	D358 - PT-CAN: message GETRIEBEDATEN (ID 0xBA) not received (reveived by DSC ECU). [transmitter: EGS]
+0x5e6b	5E6B - PT-Can: message LENKRADWINKEL (ID 0x0C4) could not be sent (sent by DSC ECU).
+0xD359	D359 - F-CAN: message LENKRADWINKEL_OBEN (ID 0x0C9) not received (reveived by DSC ECU). [transmitter: SZL]
+0x5e72	5E72 - PT-Can: message GESCHWINDIGKEIT_RAD (ID 0x0CE) could not be sent (sent by DSC ECU).
+0xD35A	D35A - PT-CAN: message KLEMMENSTATUS (ID 0x130) not received. [transmitter:CAS]
+0x5e74	5E74 - PT-Can: message STAT_DSC (ID 0x19E, Status DSC) could not be sent (sent by DSC ECU).
+0x5e75	5E75 - PT-Can: message GESCHWINDIGKEIT (ID 0x1A0) could not be sent (sent by DSC ECU).
+0x5e76	5E76 - PT-Can: message WEGSTRECKE (ID 0x1A6) could not be sent (sent by DSC ECU).
+0xD35F	D35F - PT-CAN: message STAT_ARS (ID 0x1AC) not received. [transmitter: ARS]
+0xD35C	D35C - PT-CAN: message STAT_KOMBI (ID 0x1B4) not received. [transmitter: instrument cluster]
+0xD35D	D35D - PT-CAN: message STAT_AFS (ID 0x1FC) not received. [transmitter: AFS]
+0x5e7a	5E7A - PT-Can: message BREMSDRUCK_RAD (ID 0x2B2) could not be sent (sent by DSC ECU).
+0xD35E	D35E - PT-CAN: message A_TEMP_RELATIVZEIT (ID 0x310) not received. [transmitter: instrument cluster]
+0x5e77	5E77 - PT-Can: message STAT_RPA (ID 0x31D Reifenpannenanzeige) could not be sent (sent by DSC ECU).
+0xD360	D360 - PT-CAN: message KILOMETERSTAND (ID 0x330) not received. [transmitter:instrument cluster]
+0x5e7e	5E7E - PT-Can: message RAD_TOLERANZ (ID 0x374Radtoleranzabgleich) could not be sent (sent by DSC ECU).
+0xD361	D361 - PT-CAN: message FAHRGESTELLNUMMER (ID 0x380) not received. [transmitter:CAS]
+0xD362	D362 - CAN-Error: message FAHRZEUGTYP (ID 0x388) not received. [transmitter:CAS]
+0xD363	D363 - PT-CAN: message BEDIENUNG_FAHRWERK (ID 0x398) not received (reveived by DSC ECU). [transmitter: CCC,MASK]
+0xD364	D364 - PT-CAN: message NETZWERKMANAGEMENT (ID 0x480) not received or wrong message length (DLC).
+0x5e83	5E83 - PT-Can: message Netzwerkmanagement_DSC (ID 0x5A9) could not be sent (sent by DSC ECU).
+0x5e84	5E84 - PT-Can: message BOS_MELDUNG_DSC (ID 0x5A9, Bremsbelagverschleiss) could not be sent (sent by DSC ECU).
+0xD365	D365 - PT-CAN: message BOS_RUECKSTELLUNG (ID 0x5E0) not received. [transmitter:instrument cluster]
+0x5e85	5E85 - CAN-Error: message YAW_REQUEST (ID 0xC5) not sent!
+0xD366	D366 - CAN-Error: message YAW_ANSWER (ID 0xC7) not received (reveived by DSC ECU).
+0xD367	D367 - F-CAN: message EXCH_AFS_DSC (ID 0x118) not received (reveived by DSC ECU). [transmitter:AFS]
+0xD368	D368 - PT-CAN: message RWDT_STEA_WHL (ID 0x0C3) not received or wrong message length (DLC). [transmitter: SZL]
+0x5e89	5E89 - CAN-Error: message YAW_REQUEST_2 (ID 0xCA) not sent!
+0xD369	D369 - CAN-Error: message YAW_ANSWER_2 (ID 0x0CB) missed!
+0x5e8a	5E8A - F-CAN: message REGELEINGRIFF_DSC_AFS (ID 0x11E) could not be sent (sent by DSC ECU).
+0x5e8b	5E8B - F-CAN: message GESCHWINDIGKEIT_RAD (ID 0x0CE) could not be sent (sent by DSC ECU).
+0x5e8c	5E8C - PT-CAN: message STATUS_ANHAENGER (ID 0x2E4) not received (reveived by DSC ECU). [transmitter:AHM]
+0x5e6c	5E6C - PT-CAN: message SOLL_MOM_ANF (0xBB) could not be sent (sent by DSC ECU).
+0xD36B	D36B - PT-CAN: message ST_WEAR_DISK (0x376) not received or wrong message length. (DLC). [transmitter:VGSG]
+0x5e6d	5E6D - F-CAN: message SYNC (ID 0x080) could not be sent (sent by DSC ECU).
+0xD36C	D36C - CAN: Timeout of the message BEDIENUNG_AUDIO_TEL (ID ox1D).
+0xD36D	D36D - CAN: message BEDIENUNG_TEMPOMAT (ID 0x194) not received or wrong message length (DLC). [transmitter:SZL]
+0xD36E	D36E - CAN: message BEDIENUNG_WISCHER (ID 0x2A6) not received or wrong message length (DLC). [transmitter:SZL]
+0xD373	D373 - F-CAN: message LENKRADWINKEL_OBEN_Gateway TimeOut (ID 0x0C9h) not received or wrong message length (DLC) [transmitter: SZL]
+0x5e79	5E7E - PT-CAN: message RAD_TOLERANZ (ID 0x374, Radtoleranzabgleich) could not be sent (sent by DSC ECU).
+0xD37D	D37D - PT-CAN: message WISCHERGESCHWINDIGKEIT (0x226) not received or wrong message length (DLC) [transmitter: rain sensor]
+0xD37E	D37E - PT-CAN: message BEDIENUNG_SONDERFUNKTION (0x228) not received or wrong message length (DLC). [transmitter: CCC,MASK]
+0xD37F	D37F - CAN-Error: message BEDIENUNG_TASTER_DSC (ID 0x316) not received or wrong message length (DLC).
+0xD380	D380 - PT-CAN: message BEDIENUNG_TASTER_HDC (ID 0x31A) not received or wrong message length (DLC). [transmitter: CCC,MASK]
+0xD381	D381 - CAN-Error: message BEDIENUNG_TASTER_RDC (ID 0x319) not received or wrong message length (DLC).
+0xD382	D382 - PT-CAN: message ANF_RADMOM_BREMSE (ID 0xD5) not received or wrong message length (DLC) [transmitter: LDM]
+0x5e7b	5E7B - PT-Can: message RADMOM_BREMSE (0xE1) could not be sent (sent by DSC ECU).
+0x5ec2	5EC2 - Info: CAN: 4-wheel-drive software is loaded.
+0x6f51	6F51 - PT-Can: message HOEHENSTAND_LUFTFEDER (ID 0x212)not received or wrong message length
+0x6dcf	6DCF - CAN-message/ air suspension: Signal HGLV_RH_AISP in CAN-message HOEHENSTAND_LUFTFEDER invalid.
+0x6dd0	6DD0 - CAN-message/ air suspension: Signal ALIV_AISP in CAN-message HOEHENSTAND_LUFTFEDER invalid.
+0x5e61	5E61 - lateral acceleration sensor: Controller Release System (CRS) - suspected error, gradient.
+0x5e8e	5E8E - lateral acceleration sensor: measuring range exceeded .
+0x5e90	5E90 - lateral acceleration sensor: long-term offset exceeds limit.
+0x5e91	5E91 - lateral acceleration sensor: value too high during idle.
+0x5e92	5E92 - lateral acceleration sensor: plausibility error, although model validity is inside limits.
+0x5e93	5E93 - lateral acceleration sensor: Plausibility error while signal monitoring (out of model validity).
+0x5e95	5E95 - lateral acceleration sensor: Controller Release System (CRS) - suspected error, signal gradient.
+0x5e96	5E96 - lateral acceleration sensor: Plattform-Software (PSW) - suspected failure.
+0x5e97	5E97 - lateral acceleration sensor: Controller Release System (CRS) - suspected error with exceeded measuring range.
+0x5e98	5E98 - lateral acceleration sensor: Internal transverse acceleration value outside of range (DrsERRN02).
+0x5e99	5E99 - lateral acceleration sensor: Internal self-test failed (DrsERRN04).
+0x5f64	5F64 - lateral acceleration sensor 2: Internal value outside of range (Drs2ERRN02).
+0x5f65	5F65 - lateral acceleration sensor 2: Internal self-test failed (Drs2ERRN04).
+0x5e8d	5E8D - ongitudinal acceleration sensor: long-term offset value outside of range.
+0x5e8f	5E8F - ongitudinal acceleration sensor: Error in plausibility monitoring.
+0x5eb6	5EB6 - ongitudinal acceleration sensor: (range of values exceeded.
+0x5e9a	5E9A - yaw rate sensor: sign error - proof good test required.
+0x5e9b	5E9B - yaw rate sensor: intentional signal disruption (static bite) defective.
+0x5ea1	5EA1 - yaw rate sensor: intentional signal disruption (dynamic bite) defective.
+0x5ea9	5EA9 - yaw rate sensor: Controller Release System (CRS) - suspected error with intentional signal disruption (Static BITE).
+0x5eab	5EAB - yaw rate sensor: Controller Release System (CRS) - Suspected error with intentional signal disruption (Dynamic BITE).
+0x5eac	5EAC - yaw rate sensor: Plattform-Software (PSW) - suspected failure DRS.
+0x5ead	5EAD - yaw rate sensor: Drs-ID does not match the requested ID.
+0x5eae	5EAE - yaw rate sensor: checksum of received DRS message is incorrect.
+0x5eaf	5EAF - yaw rate sensor: error of ERR or TERR bits. No additional information (ERRNO = 0).
+0x5eb0	5EB0 - yaw rate sensor: Internal yawing value outside of range (DrsERRNO1).
+0x5eb1	5EB1 - yaw rate sensor: Internal reference variable outside of range (DrsERRNO3).
+0x5eb2	5EB2 - yaw rate sensor: Received message too early (DrsERRNO5).
+0x5eb3	5EB3 - yaw rate sensor: voltage supply too low (DrsERRNO6).
+0x5eb4	5EB4 - yaw rate sensor: voltage supply too high (DrsERRNO7).
+0x5eb5	5EB5 - yaw rate sensor: Sensor in initialision (DrsERRNO8).
+0x5f58	5F58 - yaw rate sensor: Controller Release System (CRS) - suspected error with intentional signal disruption (Dynamic Bite).
+0x5f59	5F59 - yaw rate sensor: Controller Release System (CRS) - suspected error with signal gradient.
+0x5d9a	5D9A - yaw rate sensor: DRS sends signal DrsAX1=INITstatus error. (DRS-Typ MM 3.x).
+0x5d9c	5D9C - yaw rate sensor: DRS sends signal DrsAY1=INITstatus error (DRS-Typ MM 3.x).
+0x5d9f	5D9F - yaw rate sensor: DRS sends signal DrsAY2=INITstatus error (DRS-Typ MM 3.x).
+0x5da0	5DA0 - yaw rate sensor: DRS sends signal DrsPSIP1=INITstatus error (DRS-Typ MM 3.x).
+0x5da3	5DA3 - yaw rate sensor: DRS sends signal DrsPSIP2=INIT,status error (DRS-Typ MM 3.x).
+0x5da4	5DA4 - yaw rate sensor: DRS sends signal DrsAX1=signal fault. resetable (DRS-Typ MM 3.x).
+0x5da5	5DA5 - yaw rate sensor: DRS sends signal DrsAY1=signal fault. resetable (DRS-Typ MM 3.x).
+0x5da8	5DA8 - yaw rate sensor: DRS sends signal DrsAY2=signal fault. resetable (DRS-Typ MM 3.x).
+0x5da9	5DA9 - yaw rate sensor: DRS sends signal DrsPSIP1=signal fault. resetable (DRS-Typ MM 3.x).
+0x5dac	5DAC - yaw rate sensor: DRS sends signal DrsPSIP2=signal fault. resetable (DRS-Typ MM 3.x).
+0x5dae	5DAE - yaw rate sensor: DRS sends signal AX1=invalid (DRS-Typ MM 3.x).
+0x5db1	5DB1 - yaw rate sensor: DRS sends signal AY1=invalid (DRS-Typ MM 3.x).
+0x5db2	5DB2 - yaw rate sensor: DRS sends signal AY2=invalid (DRS-Typ MM 3.x).
+0x5db5	5DB5 - yaw rate sensor: DRS sends signal PSIP!=invalid (DRS-Typ MM 3.x).
+0x5db6	5DB6 - yaw rate sensor: DRS sends signal PSIP2=invalid (DRS-Typ MM 3.x).
+0x5db7	5DB7 - yaw rate sensor: DRS sends signal PSIPP=invalid (DRS-Typ MM 3.x).
+0x5dba	5DBA - yaw rate sensor: internal error: Ax1SensNotAvailable (DRS-Typ MM3.x).
+0x5dbb	5DBB - yaw rate sensor: internal error: Ay1SensNotAvailable (DRS-Typ MM3.x).
+0x5dbe	5DBE - yaw rate sensor: internal error: Ay2SensNotAvailable (DRS-Typ MM3.x)
+0x5dc0	5DC0 - yaw rate sensor: internal error: PSIP1SensNotAvailable (DRS-Typ MM3.x).
+0x5dc3	5DC3 - yaw rate sensor: internal error: PSIP2SensNotAvailable (DRS-Typ MM3.x)
+0x5dc4	5DC4 - yaw rate sensor: internal error: PSIPPSensNotAvailable (DRS-TypMM 3.x). DRS MM 3.x (R): DRS - PSIPPSensNotAvailable.
+0xD375	D375 - yaw rate sensor: CAN-message counter reports error (DRS Typ MM 3.x).
+0xD376	D376 - yaw rate sensor: CAN-message counter reports error (DRS Typ MM 3.x).
+0xD377	D377 - yaw rate sensor: CAN-message counter reports error (DRS Typ MM 3.x).
+0xD378	D378 - yaw rate sensor: CAN-message counter reports error (DRS Typ MM 3.x).
+0xD379	D379 - yaw rate sensor: Check sum of the message is incorrect (DRS Typ MM 3.x).
+0xD37A	D37A - yaw rate sensor: Check sum of the message is incorrect (DRS Typ MM 3.x).
+0xD37B	D37B - yaw rate sensor: Check sum of the message is incorrect (DRS Typ MM 3.x).
+0xD37C	D37C - yaw rate sensor: Check sum of the message is incorrect (DRS Typ MM 3.x).
+0x5e2c	5E2C - yaw rate sensor: DRS received through CAN bus does not match configuration (DRS-Typ MM 3.x).
+0x5e37	5E37 - yaw rate sensor: DRS-Type wrong or CLUtype-ID7 not permissible  (DRS-Typ MM 3.x).
+0x5e38	5E38 - yaw rate sensor: DRS reports CheckTimeout. DrsVARCheckTimeout (DRS-Typ MM 3.x).
+0x5e39	5E39 - yaw rate sensor: internal error. SensDetectedCRC (DRS-Typ MM 3.x).
+0x5e3a	5E3A - yaw rate sensor: internal error. overvoltage recognized.
+0x5e45	5E45 - yaw rate sensor: internal error (DRS-Typ MM 3.x).
+0xD36F	D36F - F-CAN: message CLU1_VDA (ID 0x0D8) not received or wrong message length (DLC) [transmitter: DRS] -  Voltage supply DRS defective?
+0xD370	D370 - F-CAN: message CLU2_VDA (0x0E3) not received or wrong message length (DLC). [transmitter: DRS] - Voltage supply DRS defective?
+0xD371	D371 - F-CAN: message CLU3_VDA (0x0F4) not received or wrong message length. [transmitter: DRS] - Voltage supply DRS defective?
+0xD372	D372 - F-CAN: message CLU_St_VDA (ID 0x165) not received or wrong message length (DLC). [transmitter: DRS] - Voltage supply DRS defective?
+0x5e46	5E46 - F-CAN: message SYNC (ID 0x80, Synchronisation Sensorcluster) could not be sent (sent by DSC ECU).
+0x6dc0	6DC0 - yaw rate sensor: offset-calibration impossible,longitudinal acceleration out of range (DRS-Typ MM3x).
+0x6dc1	6DC1 - yaw rate sensor: error occurred during EEProm-access (DRS-Typ MM3x).
+0x6dc2	6DC2 - yaw rate sensor: to many unvalid longitudinal acceleration values occured while longitudinal acceleration calibration (DRS-Typ MM3x).
+0x6dc3	6DC3 - yaw rate sensor: new DRS sensor detected. Stored serial number does not match to the received paßt nicht zu serial number ongitudinal acceleration sensor calibration required
+0x5e9c	5E9C - yaw rate sensor: plausibility error for steering angle sensor .
+0x5e9d	5E9D - yaw rate sensor: measuring range exceeded .
+0x5e9e	5E9E - yaw rate sensor: sign error.
+0x5e9f	5E9F - yaw rate sensor: Offset exceeds limit during idle.
+0x5ea0	5EA0 - yaw rate sensor: signal gradient DRS.
+0x5ea2	5EA2 - yaw rate sensor: Offset exceeds limit during fast compensation.
+0x5ea3	5EA3 - yaw rate sensor: Gain exceeds limit.
+0x5ea4	5EA4 - yaw rate sensor: Offset exceeds limit during slow compensation.
+0x5ea5	5EA5 - yaw rate sensor: plausibility error, although model validity is inside limits.
+0x5ea6	5EA6 - yaw rate sensor: Plausibility error while signal monitoring (out of model validity).
+0x5ea7	5EA7 - yaw rate sensor: redundancy error.
+0x5ea8	5EA8 - yaw rate sensor: Controller Release System (CRS) - suspected error with measuring range DRS.
+0x5eaa	5EAA - yaw rate sensor: Controller Release System (CRS) - suspected error with intentional signal disruption (Dynamic Bite).
+0x5f7a	5F7A - yaw rate sensor: DRS error associated with DRS_1.
+0x5f66	5F66 - yawrate sensor2: DRS2-ID does not match the requested ID.
+0x5f67	5F67 - yawrate sensor2: checksum of received DRS messages is incorrect.
+0x5f68	5F68 - yawrate sensor2: error of ERR or TERR bits. No additional information (ERRNO = 0).
+0x5f69	5F69 - yawrate sensor2: Internal yawing value outside of range (DrsERRNO1).
+0x5f6a	5F6A - yawrate sensor2: Internal reference variable outside of range (DrsERRNO3).
+0x5f6b	5F6B - yawrate sensor2: received message too early (DrsERRNO5).
+0x5f6c	5F6C - yawrate sensor2: voltage supply too low (DrsERRNO6).
+0x5f6d	5F6D - yawrate sensor2: voltage supply too high (DrsERRNO7).
+0x5f6e	5F6E - yawrate sensor2: Sensor in initialision (DrsERRNO8).
+0x5f7b	5F7B - yaw rate sensor: DRS-error associated with DRS_2.
+0x5ee2	5EE2 - pressure sensor: plausibility pressure sensor signal_lines . (DS-Typ 5: DSLine+DSLine2 = 5Volt).
+0x5ee4	5EE4 - pressure sensor: error in voltage supply.
+0x5ee5	5EE5 - pressure sensor: line fault.
+0x5ee6	5EE6 - pressure sensor: line fault. signal inverted.
+0x5ee7	5EE7 - pressure sensor: error with Power Up self-test  (POS).
+0x5eed	5EED - pressure sensor: DS offset invalid.
+0x5ec4	5EC4 - pressure sensor: Test pulse error.
+0x5f28	5F28 - pressure sensor: line error of temperature signal. - short circuit on +12V, ground?
+0x5f29	5F29 - pressure sensor: Temperature signal error. Parity failure, Transmission error (Ds-Typ DS5).
+0x5f2a	5F2A - pressure sensor: Temperature signal outside of range (DS-Typ DS5).
+0x5e86	5E86 - internal pressure sensor Mc1: error in voltage supply (ciruit 1).
+0x5edd	5EDD - internal pressure sensor Mc1: error with Power On self-test .
+0x5ede	5EDE - internal pressure sensor Mc1: line fault channel 1.
+0x5edf	5EDF - internal pressure sensor Mc1: line fault channel 2.
+0x5ee1	5EE1 - internal pressure sensor Mc1: plausibility fault.
+0x5e87	5E87 - pressure sensor Ci1: error in voltage supply (ciruit 1).
+0x5ee3	5EE3 - pressure sensor Ci1: Error with Power-On self-test .
+0x5ee8	5EE8 - pressure sensor Ci1: channel 1 line fault.
+0x5ee9	5EE9 - pressure sensor Ci1: channel 2 line fault.
+0x5eea	5EEA - pressure sensor Ci1: plausibility fault.
+0x5e88	5E88 - pressure sensor Ci2: error in voltage supply (ciruit 2).
+0x5eeb	5EEB - pressure sensor Ci2: Error with Power-On self-test .
+0x5eec	5EEC - pressure sensor Ci2: channel 1 line fault.
+0x5ef1	5EF1 - pressure sensor Ci2: channel 2 line fault.
+0x5f27	5F27 - pressure sensor Ci2: plausibility fault.
+0x5eba	5EBA - steering angle sensor: status error. steering angle Signal invalid or steering angle Signal only relative. centre position unknown. leared quadrant active. turn onto end position.
+0x5ebb	5EBB - steering angle sensor: signal fault - proof good test required.
+0x5ebc	5EBC - steering angle sensor: sign error.
+0x5ebd	5EBD - steering angle sensor: Signal remains at constant level.
+0x5ebe	5EBE - steering angle sensor: range LWS.
+0x5ebf	5EBF - steering angle sensor: signal gradient LWS.
+0x5ec0	5EC0 - steering angle sensor: long-term offset falls below limit.
+0x5ec1	5EC1 - steering angle sensor: plausibility error for speed sensor .
+0x5ec5	5EC5 - steering angle sensor: CAN-message counter reports error.
+0x5f0d	5F0D - steering angle sensor: Segment-segment find algorithm found wrong segment.
+0x5f0e	5F0E - steering angle sensor: SFA no sector was found at a speed > 25 km/h - temporary Error.
+0x5f63	5F63 - steering angle sensor: LWS not matched (LWS-Typ: LWS4,RWDT_STEA_WHL).
+0x5ec6	5EC6 - steering angle sensor: signal not OK.
+0x5ec7	5EC7 - steering angle sensor: serial number invalid.
+0x5ec8	5EC8 - steering angle sensor: Signal STWA_TOP=invalid received.
+0x5ec9	5EC9 - steering angle sensor: the LWS-serial number stored in DXC is incorrect.
+0x5eca	5ECA - steering angle sensor: read out of the stored LWS serial number failed.steering angle sensor calibration required
+0x5ecb	5ECB - steering angle sensor: Signal STWA_TOP_COMP in F-CAN-Botschaft LENKRADWINKEL_OBEN (ID C9h) invalid.
+0x6dc6	6DC6 - steering angle sensor: SZL code Timeout
+0x6dc7	6DC7 - steering angle sensor: SZL not encoded
+0x6dc8	6DC8 - steering angle sensor: Signal ALIV_COU_STWA_TOP in F-CAN-message LENKRADWINKEL_OBEN2 (ID 0xC9) received.
+0x5ed4	5ED4 - implausible DSC controlling: Yawing regulation (FZR controlling) not plausible.
+0x5ed5	5ED5 - implausible DSC controlling: emergency brake initiated (due to implausible control: blockage of wheels enabled).
+0x5ed6	5ED6 - Info: longterm calibration: LWS-, DRS- und AY-sensor-longterm calibration deactivated.
+0x5eda	5EDA - variant code: coding value not permissible in EEPROM.
+0x5edb	5EDB - variant code: coding value outside of range.
+0x5edc	5EDC - variant code: coding value not released for this project. vehicle variant sent by CAS is not accepted
+0x5efb	5EFB - variant code: variant switch could not be read from EEPROM.
+0x5efc	5EFC - variant code: no vehicle type data received.
+0x5efd	5EFD - Info: variant code: new variant coding value set.
+0x5f23	5F23 - variant code: EEPROM configuration ACB Hba Value in EEPROM invalid.
+0x5f2c	5F2C - variant code: EEPROM content invalid.
+0x5f60	5F60 - variant code value does not match to the vehicle.
+0x5f18	5F18 - variant code: EEPROM Configuration FZR: trailer stability control value in  EEPROM invalid.
+0x5f4d	5F4D - variant code: ASWVARCON not possible to read.
+0x6dc4	6DC4 - variant code: variant code invalid.
+0x6dc5	6DC5 - variant code: SZL Coding byte does not exist, DXC execute Coding procedure.
+0x5f1e	5F1E - Info: variant code: trailer stabilization logic deactivated through EEPROM.
+0x5ef9	5EF9 - DSC-Software: ECU-internal: Timeout in software startup phase.
+0x5efa	5EFA - DSC-Software: ECU-internal: asynchronous computing cycle (task) counter in Software.
+0x5f20	5F20 - DSC-Software: ECU-internal: Software requests full shutdown of system.
+0x5f21	5F21 - DSC-Software: ECU-internal: Software only requests EBV function.
+0x5f22	5F22 - DSC-Software: ECU-internal: Software requests ABS function only.
+0x5f30	5F30 - DME-Error: DME sends engine speed=invalid.
+0x5f31	5F31 - DME-Error: DME sends medium_effective torque=invalid.
+0x5f32	5F32 - DME-Error: DME sends unprocessed_gas pedal=invalid.
+0x5f33	5F33 - DME-Error: feedback from requested DME servo unit (ASR,MSR) is zero.
+0x5f34	5F34 - DME-Error: check sum or timeout errors in the message TORQUE_1.
+0x5f35	5F35 - DME-Error: check sum or timeout errors in the message TORQUE_2.
+0x5f36	5F36 - DME-Error: check sum or timeout errors in the message TORQUE_3.
+0x5f6f	5F6F - DME-Error: DME sends torque_current_value=invalid (PT-CAN, ID 0xA8, Signal TORQ_AVL).
+0x5f70	5F70 - DME-Error: DME sends status clutch switch=invalid (PT-CAN, ID 0xA8, Signal ST_SW_CLT).
+0x5f71	5F71 - DME-Error: DME sends torque_current_minimum=invalid (PT-CAN,ID 0xA9, Signal TORQ_AVL_MIN).
+0x5f72	5F72 - DME-Error: DME sends torque_current_maximum=invalid (PT-CAN,ID 0xA9, Signal TORQ_AVL_MAX).
+0x5f73	5F73 - DME-Error: DME sends torque value=invalid (PT-CAN, ID 0xA9, Signal TORQ_AVL_SPAR_POS).
+0x5f74	5F74 - DME-Error: DME sends angle of accelerator=invalid (PT-CAN, ID 0xAA, Signal ANG_ACPD).
+0x5f75	5F75 - DME-Error: DME sends torque_driver_choice=invalid (PT-CAN, ID 0xAA, Signal TORQ_DVCH).
+0x5f76	5F76 - DME-Error: DME sends value engine speed=invalid (PT-CAN ID 0x0AA, Signal RPM_ENG).
+0x5f77	5F77 - DME-Error: DME sends torque value=invalid (PT-CAN, ID 0xA8, Signal ST_RCPT_ENG_DSC).
+0x5f78	5F78 - DME-Error: DME sends status of motor=invalid (PT-CAN, ID 0xA8, Signal ST_RCPT_ENG_DSC).
+0x5f2e	5F2E - EGS-Error: EGS sends EGS_not_alive ODER checksum invalid (PT-CAN, ID 0xBA, Signal ALIV_GRB, CHKSM_GRB).
+0x5f2f	5F2F - EGS-Error: EGS sends gearbox_status=invalid ODER gear shift lever=invalid ODER gearbox_negativelift=invalid (PT-CAN, ID 0xBA, Signal RPM_GRB_NEGL, ST_GRLV_ACV, ST_GR_GRB).
+0x5f07	5F07 - DSC-ACC-interface: Timeout when receiving CAN messages for ACC.
+0x5f08	5F08 - DSC-Acc-interface (ECD): ACC sends ACC not alive (PT-CAN, ID 0xAD, Signal ALIV_DCRN_BRP_ACC).
+0x5f09	5F09 - DSC-Acc-interface (ECD): ACC sends valid check of the fixed value failed (PT-CAN, ID 0xAD, Signal ST_DCRN_BRP_TAR_ACC, DCRN_BRP_TAR_ACC).
+0x5f2d	5F2D - DSC-Acc-interface (ECD): ACC sends checksum of received ACC message is incorrect (PT-CAN, ID 0xAD, Signal CHKSM_DCRN_BRP_ACC).
+0x5f25	5F25 - ARS-ECU: Timeout while receipt of CAN messages (temporarily curable fault).
+0x5f26	5F26 - ARS-ECU: ARS alive-Error (message ID 0x1AC, Signal ALIV_COU_ARS).
+0x5f1f	5F1F - ARS-ECU: ARS reports status invalid (message ID 0x1AC, Signal ST_ARS).
+0x5f10	5F10 - brake pad wear: front axle sensorcheck failed. - BBV-sensor disconnected?
+0x5f12	5F12 - brake pad wear: front axle wear limit reached.
+0x5f14	5F14 - brake pad wear: plausibility fault. wear conditions ot the  BBV front axle sensor does not match to the calculated wear value or does not match to the reset value.
+0x5f11	5F11 - brake pad wear: rear axle sensorcheck failed. - BBV-sensor disconnected?
+0x5f13	5F13 - brake pad wear: rear axle wear limit reached.
+0x5f15	5F15 - brake pad wear: plausibility fault. wear conditions ot the  BBV rear axle sensor does not match to the calculated wear value or does not match to the reset value.
+0x5f1a	5F1A - Info: Performance reduction activated through DSC command.
+0x5f1b	5F1B - Info: Performance reduction deactivated through DSC command.
+0x5f1c	5F1C - Info: active brake interference with overheated brake pads.
+0x5ef2	5EF2 - pressure sensor_ACC_front: Offset-Error.
+0x5ef4	5EF4 - pressure sensor_ACC_front: Plausibility error.
+0x5ef6	5EF6 - pressure sensor_ACC_front: line fault (DS2Add1).
+0x5ef8	5EF8 - pressure sensor_ACC_front: voltage supply error.
+0x5ef3	5EF3 - pressure sensor_ACC_rear: Offset-Error.
+0x5ef5	5EF5 - pressure sensor_ACC_rear: Plausibility error.
+0x5ef7	5EF7 - pressure sensor_ACC_rear: voltage supply error.
+0x5f50	5F50 - valves general: over temperature error.
+0x5f45	5F45 - brake fluid level too low.
+0x5f47	5F47 - instrument cluster: instrument cluster Alive-Error.
+0x5f48	5F48 - instrument cluster: instrument cluster sends time or temperature=invalid (PT-CAN, ID 0x310, Signal TEMP_EX,T_SEC_COU_REL)
+0x5f49	5F49 - instrument cluster: instrument cluster sends milage=invalid (PT-CAN, ID 0x330, Signal MILE_KM)
+0x5f4a	5F4A - instrument cluster: instrument cluster sends brake pad wear_front_or_rear=invalid
+0x5f4b	5F4B - instrument cluster: instrument cluster sends status_handbrake switch=invalid (PT-CAN, ID 0x1B4, Signal ST_IDLI_HABR)
+0x5f5c	5F5C - CAN-message/instrument cluster: trailer stabilization logic because of CAN-message INSTR3 (ID 0x615) deactivated
+0x5e65	5E65 - instrument cluster: OP_PUBU_DSC Signal invalid (message BEDIENUNG_TASTER_DSC, ID 0x316)
+0x5ec3	5EC3 - instrument cluster: OP_PUBU_TPCT Signal invalid (message  BEDIENUNG_TASTER_RDC, ID 0x319)
+0x5f52	5F52 - CCC/MASK-Error: CCC reports operation_tire pressure control invalid
+0xD36A	D36A - PT-CAN: message STAT_SOLL_MOM_UMSETZUNG (ID 0x0BC) not received or wrong message length (DLC). [transmitter:VGSG]
+0x5de7	5DE7 - clutch gearbox-ECU: VG-ECU Reports: function test failed
+0x5de8	5DE8 - clutch gearbox-ECU: clutch deactivated through diagnostics
+0x5de9	5DE9 - Info: clutch gearbox-ECU: VG-ECU reports uncomfortable VG clutch control (PT-CAN, 0xBC, Signal ST_TXU_ERR)
+0x5dea	5DEA - Info: clutch gearbox-ECU: reduced moment governing due to friction in VG
+0x5dec	5DEC - clutch gearbox-ECU: clutch temporarily deactivated
+0x5f39	5F39 - clutch gearbox-ECU: VG-clutch defective - position of clutch unknown
+0x5f3a	5F3A - clutch gearbox-ECU: VG-clutch defective - clutch is open - rear wheel drive!
+0x5f3b	5F3B - Info: clutch gearbox-ECU: VG-ECU reports loss in placement accuracy. Uncomfortable control (PT-CAN, ID 0xBC, Signal ST_TXU_Err).
+0x5f3c	5F3C - is executing the torque request not satisfactionelly
+0x5f3d	5F3D - clutch gearbox-ECU: VG-Clutch does not transmit drive torque to front axle. Target values not executed- ALL-WHEEL DRIVE LOSS
+0x5f3e	5F3E - clutch gearbox-ECU: message ST_WEAR_DISK (ID 0x376h): Signal_disk sends error code
+0x5f3f	5F3F - clutch gearbox-ECU: message ST_WEAR_DISK (ID 0x376h): signal_Kette sends error code
+0x5f41	5F41 - Info: clutch gearbox-ECU: emergency control of power take-off gear clutch enable. control of power take-off gear adopted adjustment control of clutch)
+0x6dc9	6DC9 - Info: clutch gearbox-ECU: End-of-line test is running ? expected end after 30 sec.
+0x6dca	6DCA - clutch gearbox-ECU: End-of-line test failed. VG-clutch is not working!
+0x5f54	5F54 - CAS: Fahrgestell-NR ungueltig
+0x5f55	5F55 - CAS: Motor-Typ ungueltig
+0x5f56	5F56 - CAS: CAS sendet Signal KL_15 invalid oder Signal KL_R invalid oder Unplausibilitaet zwischen Signal KL_15 und WakeUp Signal (PT-Can (ID 0x130h),Signal ST_KL_R,ST_KL_15).
+0x5f57	5F57 - CAN: general CAN fault Time-Out alle CAS Botschaften (ID 0x130h),(ID 0x380h),(ID 0x388h)
+0x5f61	5F61 - AFS: AFS reports status invalid (message ID 0x1FC, Signal ST_FN_AFS)
+0x5f62	5F62 - AFS: signal exchange AFS-DSC invalid
+0x5f79	5F79 - trailer module: trailer-Signal invalid
+0x5f51	5F51 - Hydraulic brake assistant : EEPROM-invalid entry (HPS, HVV)
+0x5f53	5F53 - Hill Descent Control: HDC EEPROM invalid entry
+0x5ecc	5ECC - Hill Descent Control: MASK/CCC sends Operation_HDC=invalid. (PT-CAN, use_chassis ID 398h, Signal OP_HDC)
+0x5ecd	5ECD - Hill Descent Control: MASK/CCC sends Signal=invalid. (PT-CAN, use_special function ID 228h, Signal ID_SPFN)
+0x5ece	5ECE - Hill Descent Control: SZL sends Signal_Checksumme or Signal_Alive=invalid. (use_speed control ID 194h, Signal CHKSM_CCTR, ALIV_CCTR)
+0x5ecf	5ECF - Hill Descent Control: SZL sends Signal_OpPUshButtonAcc=invalid. (use_speed control ID 194h, Signal OpPushButtonACC)
+0x5ed0	5ED0 - Hill Descent Control: SZL sends Signal_OpGapcAcc=invalid. (use_speed control ID 194h, Signal OpGapcAcc)
+0x5ed1	5ED1 - Hill Descent Control: SZL sends Signal_OpModChoCcca=invalid. (use_speed control ID 194h, Signal OpModChoCcca)
+0x5f2b	5F2B - PT-Can: message ANZEIGE_HDC (ID 0x32D) could not be sent (sent by DSC ECU)
+0x5f4e	5F4E - Hill Descent Control: MASK/CCC sends Signal_Taster_HDC=invalid. (PT-CAN, use_push button_HDC ID 31Ah, Signal OP_PUBU_HDC)
+0x5f5d	5F5D - Electronic brake pre-filling: EEPROM-entry of EVB function invalid
+0x6dcb	6DCB - Electronic brake pre-filling: Signal ST_CLCTR_V  in PT-CAN-message TORQUE_3 (ID 0xAA) invalid
+0x5f5e	5F5E - brake pad wiper: EEPROM entry invalid
+0x5f5f	5F5F - hill-hold startup assistant: EEPROM entry invalid
+0xD374	D374 - PT-CAN: message STAT_GANG_RUECKWAERTS (ID 0x3B0) not received or wrong message length (DLC). [transmitter: LM]
+0x5f7c	5F7C - DSC-ECU: ECU-internal: VAFS-Prozessor: VAFS-SP-Interface transfer fault of the VAFS-Controllers
+0x5f7d	5F7D - DSC-ECU: ECU-internal: VAFS-Prozessor: wrong memory access on VAFS-Controller
+0x5f7e	5F7E - DSC-ECU: ECU-internal: VAFS-Prozessor: ADC calibration of VAFS-Controllers
+0x5f7f	5F7F - DSC-ECU: ECU-internal: VAFS-Prozessor: ADC conversion start failure on VAFS-Controllers
+0x5f80	5F80 - DSC-ECU: ECU-internal: VAFS-Prozessor: ADC transfer fault of the VAFS-Controllers
+0x5f81	5F81 - DSC-ECU: ECU-internal: VAFS-Prozessor: software transfer fault (ASW-PSW)
+0x5f82	5F82 - DSC-ECU: ECU-internal: VAFS-Prozessor: general HSW-error of VAFS-Controllers
+0x5f83	5F83 - DSC-ECU: ECU-internal: VAFS-Prozessor: CAN-hardware error of VAFS-Controllers
+0x5f84	5F84 - DSC-ECU: ECU-internal: VAFS-Prozessor: CAN message-timeout of VAFS-Controller
+0x5f85	5F85 - DSC-ECU: ECU-internal: VAFS-Prozessor: CAN signal fault ot the VAFS-Controllers
+0x5f86	5F86 - DSC-ECU: ECU-internal: VAFS-Prozessor: general VAFS-error of VAFS-Controllers
+0x5f44	5F44 - clutch: clutch pedal never activated
+0x5f46	5F46 - clutch: clutch pedal permanently activated
+0x5ed7	5ED7 - Reverse gear switch: monitoring reports: switch permanent backward
+0x5ed8	5ED8 - Reverse gear switch: monitoring reports: switch permanent forward
+0x5ed9	5ED9 - PT-CAN: Signal STATUS_GEAR_BACKWARDS in message STATUS_GANG_RUECKWAERTS (ID 3B0h) invalid (used by  Hill-Hold-Function)
+0x5ed2	5ED2 - brake pad wiper: RLS sends invalid signals in message REGENSENSOR_WISCHERGESCHWINDIGKEIT (PT-CAN, ID 0x226)
+0x5ed3	5ED3 - brake pad wiper: SZL sends signal OP_WISW=invalid (F-CAN, ID 0x2a6, Signal OP_WISW)
+0xD383	D383 - LDM-Error: checksum error
+0x6f4b	6F4B - LDM-Error: Alive-Error
+0x6e59	6E59 - LDM-Error: monitoring accelerator pedal, LDM-brake request against accelerator pedal inplausible
+0x6df8	6DF8 - LDM-Error: monitoring release, LDM-brake request without release
+0x5e55	5E55 - CAN-Error: message LDM_Anforderung_Radmoment_Sollwert invalid
+0x5e56	5E56 - CAN-Error: message G237 LDM_Anforderung_Radmoment_Sollwertverteilung (vorne/hinten) invalid.
+0x5e53	5E53 - Info: Hydraulische Fading Control: HFC is active for more than 500 ms and temperature of the brake discs is over the limit 550 degrees
+0x5e54	5E54 - Info: Hydraulische Fading Control: HFC is active and temperature of the brake discs is over the limit 700 degrees
+0x60ac	60AC - detection deflation system: RPA coding data inplausible
+0x60ad	60AD - detection deflation system: RPA standardisation data inplausible
+0x60ae	60AE - detection deflation system: RPA-FASTA-Data inplausible
+0x60af	60AF - detection deflation system: RPA inactive due to overly large pneumatic suspension height difference at the front axle
+0x60b0	60B0 - detection deflation system: RPA inactive due to overly large pneumatic suspension height difference at the rear axle
+0x94B0	94B0 - SZL: error entry for SZL: LWS-Error: synchronisation via Sub impossible
+0x94B1	94B1 - SZL: error entry for SZL: LWS-Error: connection test for PDA abortive
+0x94B2	94B2 - SZL: error entry for SZL: LWS-Error: light of ambience too bright
+0x94B3	94B3 - SZL: error entry for SZL: LWS-Error: no referring trace found
+0x94B4	94B4 - SZL: error entry for SZL: LWS-Error: sensor error: distance of referring trace out of range
+0x94B5	94B5 - SZL: error entry for SZL: LWS-Error: illigal code
+0x94B6	94B6 - SZL: error entry for SZL: LWS-Error: angle step too large
+0x94B7	94B7 - SZL: error entry for SZL: LWS-Error: measuring range exceeded (overflow)
+0x94B8	94B8 - SZL: error entry for SZL: LWS-Error: angle verification via Main and Sub incorrect
+0x94B9	94B9 - SZL: error entry for SZL: LWS-Error: LWS not calibrated: EEPROM defective
+0x94BA	94BA - DSC-SZL: error entry for SZL: exposure time=0
+0x94BB	94BB - DSC-SZL: error entry for SZL: dropping by comparator
+0x94BC	94BC - DSC-SZL: error entry for SZL: CRC Error in coding data block
+0x94BD	94BD - DSC-SZL: error entry for SZL: CRC Error within limits of RAM save
+0x94BE	94BE - DSC-SZL: error entry for SZL: digital angle out of range Praediktionsbereich
+0x94BF	94BF - DSC-SZL: error entry for SZL: StartUp process communication Timeout
+0x94C0	94C0 - DSC-SZL: error entry for SZL: WakeUp TimeOut illumination control
+0x94C1	94C1 - DSC-SZL: error entry for SZL: Error 16
+0x94C2	94C2 - DSC-SZL: error entry for SZL: LWS not matched
+0x94C3	94C3 - DSC-SZL: error entry for SZL: general sensor error
+0x94C4	94C4 - DSC-SZL: error entry for SZL: reference trace not found
+0x94C5	94C5 - DSC-SZL: error entry for SZL: CRC Error within limits of RAM save
+0x94C6	94C6 - DSC-SZL: error entry for SZL: reserved for CRC refering trace
+0x94C7	94C7 - DSC-SZL: error entry for SZL: StartUp LWS Shadow zero point data CRC Error
+0x94C8	94C8 - DSC-SZL: error entry for SZL: StartUp LWS Shadow end of line data CRC Error
+0x94C9	94C9 - DSC-SZL: error entry for SZL: StartUp EEPROM loading not successful
+0xC987	C987 - SZL: error entry for SZL: LWS-Error: no message on F-CAN. BusOff-Error.
+0xC995	C995 - SZL: error entry for SZL: LWS-Error: Signal or value above threshold, not used wheel speed >300km/h: F-CAN wheel speed, communication with DSC.
+0xC996	C996 - SZL: error entry for SZL: LWS-Error: Signal or value below threshold wheel speed < 300km/h: F-CAN wheel speed, communication with DSC.
+0xC998	C998 - SZL: error entry for SZL: LWS-Error: Signal or value below threshold wheel tolerance comparison < -5%: F-CAN wheel tolerance comparison, communication with DSC.
+0xC99A	C99A - SZL: error entry for SZL: LWS-Error: Signal or value above threshold, not used wheel tolerance comparison > 5%: F-CAN wheel tolerance comparison, communication with DSC.
+0xC994	C994 - SZL: error entry for SZL: LWS-Error: no signal or value timeout (message not received within implemented time): F-CAN wheel speed, communication with DSC.
+0xC997	C997 - SZL: error entry for SZL: LWS-Error: no signal or value timeout (message not received within implemented time): F-CAN wheel tolerance comparison, communication with DSC.
+0xC99B	C99B - SZL: error entry for SZL: LWS-Error: no signal or value timeout (message not received within implemented time): F-CAN Sync.
+0xC99C	C99C - SZL: error entry for SZL: LWS-Error: no signal or value timeout (message not received within implemented time): no communication with DSC.
+0x94E0	94E0 - SZL: error entry for SZL: LWS-Error: EEPROM - defective: Prozessor defective.
+0x9500	9500 - SZL: error entry for SZL: LWS-Error: low voltage: UBatt < 8.5 V.
+0x9501	9501 - SZL: error entry for SZL: LWS-Error: high voltage: UBatt > 16,5 V.
+0x9510	9510 - SZL: error entry for SZL: LWS-Error: FGR/ACC-Switch hanging(all pushable switches): mechanical problem, contact.
+0x9511	9511 - SZL: error entry for SZL: LWS-Error: FGR/ACC-Switch inplausible: incorrect combination occurred in speed control switch.
+0x9512	9512 - SZL: error entry for SZL: LWS-Error: FGR/ACC-Switch defective : voltage coded arm (recall / ACC) interrupted as the case may be short circuit or LED interrupted / short circuit.
+0x9518	9518 - SZL: error entry for SZL: LWS-Error: switch for windscreen wiper (all pushable switches): mechanical problem, contact.
+0x9519	9519 - SZL: error entry for SZL: LWS-Error: switch for windscreen wiper inplausible: incorrect combination occurred in switch of windscreen wiper.
+0x951A	951A - SZL: error entry for SZL: LWS-Error: switch for windscreen wiper -switch defect : voltage coded arm (RS / IntervallPoti) interrupted as the case may be Kurzschluß-LED unterbrochen / short circuit or LED interrupted / short circuit.
+0x9520	9520 - SZL: error entry for SZL: LWS-Error: switch for audio/telephone: mechanical problem, contact.
+0x6dd1	6DD1 - ECU: detection of wrong HET execution speed(e.g.caused by mismatched HET prescale factors).
+0x6dd2	6DD2 - ECU: wrong HET duty cycle(HetPin 14 is tested with a test duty).
+0x6dd3	6DD3 - wheel speed sensor front left: WssFl speed comparison (MonCTM) to sec. path (AS/SCON) failed.
+0x6dd4	6DD4 - wheel speed sensor rear left: WssRl speed comparison (MonCTM) to sec. path (AS/SCON) failed.
+0x6dd5	6DD5 - wheel speed sensor rear right: WssRr speed comparison (MonCTM) to sec. path (AS/SCON) failed.
+0x6dd6	6DD6 - wheel speed sensor front right: WssFr speed comparison (MonCTM) to sec. path (AS/SCON) failed.
+0x6dd7	6DD7 - gearbox: Signal ST_RSTA Invalid in CanMsgGETRIEBEDATEN.
+0x6f52	6F52 - CAN-Error: message LENKRADWINKEL_OBEN_2 (0xC9h) missed or wrong DLC received (DLC).
+0x6dd8	6DD8 - Kombi-Error: SignalFRC_INTM_WAY_BOS_RSTG_2_F invalid in CanMsgBOS_RUECKSTELLUNG.
+0x6dd9	6DD9 - Kombi-Error: SignalFRC_INTM_WAY_BOS_RSTG_2_R invalid in CanMsgBOS_RUECKSTELLUNG.
+0x6df1	6DF1 - Varianten codierung EEPROM Konfiguration VHC ungueltig
+0x6df2	6DF2 - Getriebefehler:  Signal ST_MOD_GRB in CAN message gear box data inplausible
+0x6df3	6DF3 - ECU intern: VAFS (Value Added Function Server) versions incompatible
+0x6df4	6DF4 - ECU intern: VAFS (Value Added Function Server) Transfer Timeout
+0x6df5	6DF5 - ECU intern: VAFS (Value Added Function Server) Data Checksum Error
+0x6df6	6DF6 - ECU intern: VAFS (Value Added Function Server) general Spi Error
+0x6dff	6DFF- DSC-ECU: ECU-internal: RAM-buffer for parameter invalid
+0x6e0d	6E0D - internal pressure sensor Mc1: temperature of pressure sensor am brake main cylinder 1 outside of valid range
+0x6e0f	6E0F - DCC: Error in Interface to instrument cluster
+0x6e11	6E11 - DCC: acceleration while control cycle too wide
+0x6e12	6E12 - DCC: deacceleration while control cycle too wide
+0x6e13	6E13 - DCC: brake request current not permitted
+0x6e14	6E14 - DCC: acceleration request current not permitted
+0x6e15	6E15 - DCC: the controller 
+0x6e16	6E16 - DCC: parameter error
+0x6e17	6E17 - DCC: plausibility failure (Phz against BLS while DCC acceleration)
+0x6e18	6E18 - DCC: plausibility failure (angle of acceleration pedal while DCC brake maneuver)
+0x6e19	6E19 - DCC: release nicht abgewartet
+0x6e1b	6E1B - PT-CAN: message ANF_RADMOM_PT (ID 0xBF) could not be sent (Sent by DSC-SG).
+0x6e1c	6E1C - PT-CAN: message ANZEIGE_ACC_DCC (ID 0x193) could not be sent (Sent by DSC-SG).
+0x6e1d	6E1D - DME-Error: Alive-Counter der empfangenen DME-message RADMOM_PT_1 (PT-CAN, ID 0xB4) falsch.
+0x6e1e	6E1E - DME-Error: checksum der empfangenen DME-message RADMOM_PT_1 (PT-CAN, ID 0xB4) falsch.
+0x6e1f	6E1F - DME-Error: Alive-Counter der empfangenen DME-message RADMOM_PT_2 (PT-CAN, ID 0xAC) falsch.
+0x6e20	6E20 - DME-Error: checksum der empfangenen DME-message RADMOM_PT_2 (PT-CAN, ID 0xAC) falsch.
+0x6e21	6E21 - DME-Error: DME sends ST_INTF_PT=invalid (PT-CAN, RADMOM_PT_1, ID 0xB4).
+0x6e22	6E22 - DME-Error: DME sends ST_PENG=invalid (PT-CAN, RADMOM_PT_1, ID 0xB4).
+0x6e23	6E23 - DME-Error: DME sends WMOM_PT_AVL=invalid (PT-CAN, RADMOM_PT_1, ID 0xB4).
+0x6e24	6E24 - DME-Error: DME sends ANG_ACPED_REAL=invalid (PT-CAN, RADMOM_PT_1, ID 0xB4).
+0x6e25	6E25 - DME-Error: DME sends WMOM_PT_MAX=invalid (PT-CAN, RADMOM_PT_2, ID 0xAC).
+0x6e26	6E26 - DME-Error: DME sends WMOM_PT_MIN_LOW=invalid (PT-CAN, RADMOM_PT_2, ID0xAC).
+0x6e30	6E30 - internal pressure sensor Mc1: Plauisibilitaet of one pressure sensor against BLS falsch.
+0x6e31	6E31 - internal pressure sensor Mc1: Plauisibilitaet of 3 pressure sensors against BLS falsch.
+0x6e32	6E32 - internal pressure sensor Mc1: Offseterror.
+0x6e33	6E33 - internal pressure sensor Mc1: testpulse error.
+0x6e4a	6E4A - Ventil Relais: VR not off, while Watchdog suppressed (FSA)
+0x6e52	6E52 - DCC: Level 2 switch off (no Reaktion on Level 1 switch off)
+0x6e53	6E53 - F-Can: invalid Signals in message BEDIENUNG_TEMPOMAT (0x194)
+0x6e54	6E54 - variant code: invalid variant value causes timeout beim Parameteraustausch
+0x6e58	6E58 - yaw rate sensor: Info-Block not complete received. (DRS Typ MM 3.x)
+0x6e84	6E84 - DCC: Error beim DCC EEPROM by reading data (EEPROM Error)
+0x6f65	6F65 - PT-CAN: message STAT_KOMBI (ID 0x1B4) wrong checksum or Alive-counter Error
+0x6f56	6F56 - PT-CAN: message RADMOM_PT_1 (ID   (0xB4) not received [transmitter: DME]
+0x6f57	6F57 - PT-CAN: message RADMOM_PT_2 (ID   (0xAC) not received [transmitter: DME]
+0x6d95	6D95 - DSC-ECU: ECU-internal: Analog Digital converter: Self test Error
+0x6d97	6D97 - DSC-ECU: ECU-internal: System IC timing faulty
+0x6E60	6E60 - CAN-Error: message LDM_request_wheel_torque_brake Signal WmomEcbaEnb  invalid
+0x6E92	6E92 - coding Error: message D5 received however ECU coded on DCC features
+0x6DF7	6DF7 - PT-Can: message BESCHL_DATEN (ID 0x2B3) could not be sent (sent by DSC ECU)
+0x6E49	6E49 - RDC - Signal StatusBreakDownTyre invalid
+0x6E78	6E78 - SW Reset while VRoff or ELoff -turn IG off/on.
+0x6E79	8E79 - DSC-ECU: FSA -Voltage to low for valve relais test to execute
+0x6E7B	6E7B - DSC-ECU: ADC Selftest Error in VAFS controller
+0x6E80	6E80 - Brake overheated while ECBA- control cycle
+0x6E81	6E81 - break pad sensor front: line fault
+0X6E82	6E82 - break pad sensor rear: line fault
+0x6E9E	6E9E - EMF: CRC Error SafgRqWmomEmf (RQ_WMOM_EMF QU_RQ_WMOM_EMF)
+0x6E9F	6E9F - EMF: RQ_WMOM_EMF QU_RQ_WMOM_EMF permanent  inconsistent
+0x6EA0	6EA0 - EMF: RQ_WMOM_EMF QU_RQ_WMOM_EMFtemporarily faulty
+0x6EA1	6EA1 - PT-CAN: message VEH_MOD (0x315) signal ADJU_MOD_VEH invalid
+0x6EA2	6EA2 - EEPROM: Configuration SW_Sperre in EEPROM invalid
+0x6EA3	6EA3 - EMF: Signal ST_ACT_EMF invalid
+0x6F63	6F63 - RDC: message STAT_RDC wrong DLC or message not received
+0x6F70	6F70 - EMF: message ST_RQ_EMF (0x1FD) wrong DLC or message not received
+0x6F71	6F71 - EMF: message ST_RQ_EMF (0x1F1)  wrong checksum or Alive-counter Error
+0x6F72	6F72 - EMF: message VEH_MOD (0x315) wrong DLC or message not received
+0x6F73	6F73 - EMF :message VEH_MOD (0x315)  wrong checksum or Alive-counter Error
+0x6E9B	6E9B - variant code faulty
+0x6EA6	6EA6 - PT-CAN: message MSA (ID 0x308) Signal ST_MSA_FN invalid
+0x6EA7	6EA7 - PT-CAN: message MSA (ID 0x308) Signal ANO_ENG_STA_STOP_MSA invalid
+0x6EA8	6EA8 - PT-CAN: message MSA (ID 0x308) Signal RQ_ENG_STA_MSA invalid
+0x6F74	6F74 - PT-CAN: message MSA (ID 0x308) Timeout
+0x6F75	6F75 - PT-CAN: message MSA (ID 0x308) wrong checksum or Alive-counter Error
+0x6EC2	6EC2 - EEPROM Configuration REF invalid, supported by Ax-signal
+0x6EC3	6EC3 - steering angle Sensor: Signal invalid, status Error
+0x6EC4	6EC4 - steering angle sensor: status Error. steering angle Signal invalid or steering angle Signal only relative. centre position unknown. leared quadrant active. turn onto end position
+0x6EC5	6EC5 - variant code faulty vehicle variante 0x00 invalid
+0x6EC6	6EC6 - variant code faulty vehicle idenification number not readable
+0xFFFF	Unknown error location
