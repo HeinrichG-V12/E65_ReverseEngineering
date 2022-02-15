@@ -82,3 +82,4 @@
 - https://www.e90post.com/forums/showthread.php?t=177272&page=7
 - https://github.com/commaai/opendbc
 - http://bobodyne.com/web-docs/robots/MINI/CAN/Presentation/index.html
+- https://www.maxxecu.com/webhelp/advanced-bmw_dct-can_protocol.html
