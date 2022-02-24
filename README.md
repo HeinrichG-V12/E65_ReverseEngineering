@@ -1,29 +1,9 @@
 # E65 Reverse Engineering
 
 ## Reverse engineering on PT-CAN and Local-CAN of BMW E65/E66 ##
-## The main goal of this project is to replace the original engine control (2x DME) with rusEFI Proteus. ##
-## The other goal is to find the CAN messages needed for the operation of the installed automatic transmission (ZF 6HP26) to be able to run the transmission stand-alone... ##
 
-## [BMW Standard Tools installation HowTo](https://www.e90post.com/forums/showthread.php?t=1196830)
-
-### Messages needed for the transmission operation ([source](docs/6HP26.pdf),  page 80) ###
-
-|Signals|Transmitter|Receiver|CAN ID|
-|-------------------|--------|--------|--------|
-|Transmission selector switch|SZL|EGS|[0x192](docs/0x192.md)|
-|Terminal status|CAS|EGS|[0x130](docs/0x130.md)|
-|Central locking|CAS|EGS|[0x2FC](docs/0x2FC.md)|
-|Transmission data|EGS|CAS||
-|Engine data|DME / DDE|EGS|[0x1D0](docs/0x1D0.md)|
-|Wheel rotating speeds|DSC|EGS|[0x0CE](docs/0x0CE.md)|
-|Braking request|EMF|EGS||
-|Transmission data display|EGS|Instr. cluster||
-|Check Control message|EGS|Instr. cluster||
-|Torque request|EGS|DME|[0x0B5](docs/0x0B5.md)|
-|Operating voltage|Power Module|EGS|[0x3B4](docs/0x3B4.md)|
-|Stationary consumers|EGS|Power Module||
-
-### CAN-IDs in PT-CAN BMW E65 with MED 9.2.1 ###
+## CAN-IDs in PT-CAN BMW E65 with MED 9.2.1 ##
+### The information about the CAN messages and signals was taken from the original Bosch document that I found in a forum on the Internet. They were compared with my own BMW 760Li year of construction 09/2006 model year 2007. This car has a MED 9.2.1 installed, a further development of a MED 9.2 that was used with the E65 V8. ###
 
 |Message name|Transmitter|CAN ID|Message status|
 |-----------|-----------|------|------|
@@ -48,9 +28,11 @@
 |Transmission data 2|EGS|[0x1A2](docs/0x1A2.md)|fully decoded|
 |Status ARS|ARS|[0x1AC](docs/0x1AC.md)|fully decoded|
 |Status instrument cluster|Kombi|[0x1B4](docs/0x1B4.md)|fully decoded|
+|Heat flow climate|Ihka|[0x1B5](docs/0x1B5.md)|fully decoded|
 |Engine data 1|DME|[0x1D0](docs/0x1D0.md)|fully decoded|
 |Display gearbox data|EGS|[0x1D2](docs/0x1D2.md)|TBD|
 |Speed cruise control|DME|[0x200](docs/0x200.md)|TBD, partially decoded|
+|Outside temperature / relative time|Kombi|[0x310](docs/0x310.md)|fully decoded|
 |Damper current|EDC-K|[0x322](docs/0x322.md)|TBD|
 |Status damper programm|EDC-K|[0x326](docs/0x326.md)|TBD, partially decoded|
 |Mileage|Kombi|[0x330](docs/0x330.md)|fully decoded|
@@ -79,7 +61,25 @@
 
 ### Some interesting links: ###
 
+- [BMW Standard Tools installation HowTo](https://www.e90post.com/forums/showthread.php?t=1196830)
 - https://www.e90post.com/forums/showthread.php?t=177272&page=7
 - https://github.com/commaai/opendbc
 - http://bobodyne.com/web-docs/robots/MINI/CAN/Presentation/index.html
 - https://www.maxxecu.com/webhelp/advanced-bmw_dct-can_protocol.html
+
+### Messages needed for the transmission operation ([source](docs/6HP26.pdf),  page 80) ###
+
+|Signals|Transmitter|Receiver|CAN ID|
+|-------------------|--------|--------|--------|
+|Transmission selector switch|SZL|EGS|[0x192](docs/0x192.md)|
+|Terminal status|CAS|EGS|[0x130](docs/0x130.md)|
+|Central locking|CAS|EGS|[0x2FC](docs/0x2FC.md)|
+|Transmission data|EGS|CAS||
+|Engine data|DME / DDE|EGS|[0x1D0](docs/0x1D0.md)|
+|Wheel rotating speeds|DSC|EGS|[0x0CE](docs/0x0CE.md)|
+|Braking request|EMF|EGS||
+|Transmission data display|EGS|Instr. cluster||
+|Check Control message|EGS|Instr. cluster||
+|Torque request|EGS|DME|[0x0B5](docs/0x0B5.md)|
+|Operating voltage|Power Module|EGS|[0x3B4](docs/0x3B4.md)|
+|Stationary consumers|EGS|Power Module||
