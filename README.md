@@ -29,6 +29,7 @@
 |Status ARS|ARS|[0x1AC](docs/0x1AC.md)|fully decoded|
 |Status instrument cluster|Kombi|[0x1B4](docs/0x1B4.md)|fully decoded|
 |Heat flow air condition|Ihka|[0x1B5](docs/0x1B5.md)|fully decoded|
+|Heat flow engine|DME|[0x1B6](docs/0x1B6.md)|fully decoded|
 |Engine data 1|DME|[0x1D0](docs/0x1D0.md)|fully decoded|
 |Display gearbox data|EGS|[0x1D2](docs/0x1D2.md)|TBD|
 |Speed cruise control|DME|[0x200](docs/0x200.md)|TBD, partially decoded|
